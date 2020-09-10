@@ -13,6 +13,8 @@ public class Test {
 
 
 	public static void main(String[] args) {
+
+		//初始化spring容器
 		AnnotationConfigApplicationContext con = new AnnotationConfigApplicationContext(BeanConfig.class);
 		DependenceA bean = con.getBean(DependenceA.class);
 		System.out.println(bean);
