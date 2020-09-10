@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
  */
 public class JavaConfig {
 	@Bean
-	public User user(){
-		return new User("001","smart哥");
+	public User user() {
+		return new User("001", "zeki");
 	}
 }
